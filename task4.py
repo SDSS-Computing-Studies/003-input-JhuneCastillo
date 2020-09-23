@@ -13,3 +13,16 @@
 #
 # Test output
 # input sides of 5 and 7 should give hypotenuse of 8.60232526704
+
+import math
+
+side1 = input("Enter value for First side: ")
+side2 = input("Enter value for Second side: ")
+
+side1 = int(side1)
+side2 = int(side2)
+
+result = math.hypot(side1, side2)
+x = str(result)
+
+print("The hypotenuse has a length of " + x)
