@@ -12,3 +12,18 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+import math
+
+a = input('Enter value of "a": ')
+b = input('Enter value of "b": ')
+c = input('Enter value of "c": ')
+
+a2 = int(a)
+b2 = int(b)
+c2 = int(c)
+
+result = ((c2 - b2) / a2)
+
+y = str(result)
+
+print("x = " + y)
