@@ -12,4 +12,4 @@
 name = input("Whats your name?")
 email = input("Whats your emial?")
 
-print("Your name is " + name + ", " + "and your email is " + email + ".")
+print("Your name is " + name + ", " + "and your email is " + email)
