@@ -14,7 +14,7 @@
 import math
 
 radius = input("Enter radius of sphere: ")
-x = int(radius)
+x = float(radius)
 
 result = (4/3 * math.pi * x ** 3)
 y = str(result)
